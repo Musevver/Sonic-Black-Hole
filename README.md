@@ -17,7 +17,7 @@ Run to load the GUI, adjust parameters and click *Start Simulation*. Use *Animat
 
 ## Technical background
 
-For a barotropic, irrotational fluid (density $\rho$, sound speed $c$, background velocity $\mathbf v$ with $\mathbf v=\nabla\Psi$), linear perturbations of the velocity potential $\phi$ satisfy a wave equation that can be written as a covariant d'Alembertian in an **effective spacetime metric** (the acoustic metric):
+For a barotropic, irrotational fluid (density $\rho$, sound speed $c$, background velocity $\mathbf v$ with $\mathbf v=\nabla\Psi$), linear perturbations of the velocity potential $\phi$ satisfy a wave equation that can be written as a covariant d'Alembertian in an *effective spacetime metric* (fittingly, the acoustic metric):
 
 $$
 \square_g \phi
@@ -56,7 +56,7 @@ $$
 \kappa \;=\; \tfrac{1}{2}\left.\frac{d}{dx}\big(c^2(x)-v^2(x)\big)\right|_{x=x_H}.
 $$
 
-The code computes a finite-difference approximation to this derivative and reports the dimensionless Hawking temperature
+The code computes a finite-difference approximation to this derivative and reports the dimensionless Hawking temperature (Really profound that this analog is possible!)
 
 $$
 T_H^{(\mathrm{dimless})} \;=\; \frac{\kappa}{2\pi},
@@ -84,3 +84,4 @@ $$
 $$
 
 In the code’s dimensionless units we compare observed $|\beta_\omega|^2$ to the dimensionless form $(e^{\omega/T_H^{(\mathrm{dimless})}}-1)^{-1}$.
+
