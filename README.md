@@ -25,7 +25,7 @@ Run to load the GUI, adjust parameters and click *Start Simulation*. Use *Animat
 
 ## Technical background
 
-For a barotropic, irrotational fluid (density $\rho$, sound speed $c$, background velocity $\mathbf v$ with $\mathbf v=\nabla\Psi$), linear perturbations of the velocity potential $\phi$ satisfy a wave equation that can be written as a covariant d'Alembertian in an *effective spacetime metric* (fittingly, the acoustic metric):
+For a barotropic, irrotational fluid (density $\rho$, sound speed $c$, background velocity $\mathbf v$ with $\mathbf v=\nabla\Psi$), linear perturbations of the velocity potential $\phi$ satisfy a wave equation that can be written as a covariant d'Alembertian in an *effective spacetime metric* (the sonic metric):
 
 $$
 \square_g \phi
@@ -92,6 +92,7 @@ $$
 $$
 
 In the code’s dimensionless units we compare observed $|\beta_\omega|^2$ to the dimensionless form $(e^{\omega/T_H^{(\mathrm{dimless})}}-1)^{-1}$.
+
 
 
 
