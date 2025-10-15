@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software in a publication, please cite it."
+title: "Basic Sonic Black Hole Simulation in Python"
+version: "0.1.0"
+date-released: 2025-10-14
+authors:
+  - family-names: "Musevver Ugursal"
+    given-names: ""
+    orcid: ""
+abstract: "A compact and interactive python based sonic black hole analog simulation (PML, energy diagnostics, PSD, animation)."
+url: "https://github.com/Musevver/Sonic-Black-Hole"
+license: "MIT"
