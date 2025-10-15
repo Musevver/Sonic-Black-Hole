@@ -1,5 +1,13 @@
 # Sonic Black Hole Simulator in Python
 
+## Preface
+What this is: 
+- a passion project and learning oppurtunity
+- an educational tool that serves as a good intro to the dynamics of black hole analogs
+
+What this isn't:
+- a fully accurate, research grade quantum simulation of a sonic black hole
+
 ## Parameters
 - `Nx` — number of spatial grid points (default 300). Improves spatial resolution, uses more memory.
 - `Nt` — number of time steps (default 900). Gives longer runs and better frequency resolution.
@@ -84,4 +92,5 @@ $$
 $$
 
 In the code’s dimensionless units we compare observed $|\beta_\omega|^2$ to the dimensionless form $(e^{\omega/T_H^{(\mathrm{dimless})}}-1)^{-1}$.
+
 
