@@ -55,43 +55,44 @@ We evolve the equivalent first-order-in-time system in the code.
 A sonic horizon occurs where the background flow equals the local wave speed:
 
 $$
-\text{horizon:}\quad v(x_H)=c(x_H).
+\text{horizon:}\quad v(x_H)=c(x_H)
 $$
 
 The analogue of black-hole surface gravity (1D) is
 
 $$
-\kappa \;=\; \tfrac{1}{2}\left.\frac{d}{dx}\big(c^2(x)-v^2(x)\big)\right|_{x=x_H}.
+\kappa \;=\; \tfrac{1}{2}\left.\frac{d}{dx}\big(c^2(x)-v^2(x)\big)\right|_{x=x_H}
 $$
 
 The code computes a finite-difference approximation to this derivative and reports the dimensionless Hawking temperature (Really profound that this analog is possible!)
 
 $$
-T_H^{(\mathrm{dimless})} \;=\; \frac{\kappa}{2\pi},
+T_H^{(\mathrm{dimless})} \;=\; \frac{\kappa}{2\pi}
 $$
 
-which (with $\hbar$ and $k_B$ restored) gives $T_H=\hbar\kappa/(2\pi k_B)$.
+which (with $\hbar$ and $k_B$ restored) gives $T_H=\hbar\kappa/(2\pi k_B)$
 
 
 In stationary scattering one expands field solutions at frequency $\omega$ into incoming/outgoing modes (positive and negative norm). Scattering mixes them:
 
 $$
-\hat a^{\rm out}_\omega = \alpha_\omega \,\hat a^{\rm in}_\omega + \beta_\omega \,\hat a^{\rm in\,\dagger}_{-\omega},
+\hat a^{\rm out}_\omega = \alpha_\omega \,\hat a^{\rm in}_\omega + \beta_\omega \,\hat a^{\rm in\,\dagger}_{-\omega}
 $$
 
 and the spontaneous emission (particle number per mode) is
 
 $$
-\langle n_\omega\rangle = |\beta_\omega|^2.
+\langle n_\omega\rangle = |\beta_\omega|^2
 $$
 
 For near-horizon, stationary geometries a thermal (Planck) spectrum is predicted:
 
 $$
-|\beta_\omega|^2 \approx \frac{1}{\exp\!\big(\hbar\omega/(k_B T_H)\big)-1}.
+|\beta_\omega|^2 \approx \frac{1}{\exp\!\big(\hbar\omega/(k_B T_H)\big)-1}
 $$
 
-In the code’s dimensionless units we compare observed $|\beta_\omega|^2$ to the dimensionless form $(e^{\omega/T_H^{(\mathrm{dimless})}}-1)^{-1}$.
+In the code’s dimensionless units we compare observed $|\beta_\omega|^2$ to the dimensionless form $(e^{\omega/T_H^{(\mathrm{dimless})}}-1)^{-1}$
+
 
 
 
