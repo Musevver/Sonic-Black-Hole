@@ -29,7 +29,7 @@ For a barotropic, irrotational fluid (density $\rho$, sound speed $c$, backgroun
 
 $$
 \square_g \phi
-= \frac{1}{\sqrt{-g}}\partial_\mu\big(\sqrt{-g}\,g^{\mu\nu}\partial_\nu\phi\big)=0,
+= \frac{1}{\sqrt{-g}}\partial_\mu\big(\sqrt{-g}\,g^{\mu\nu}\partial_\nu\phi\big)=0
 $$
 
 with (up to an overall conformal factor)
@@ -39,13 +39,13 @@ g_{\mu\nu} \propto
 \begin{pmatrix}
 -(c^2-\mathbf v^2) & -v_j \\
 -v_i & \delta_{ij}
-\end{pmatrix}.
+\end{pmatrix}
 $$
 
 In 1D this reduces to the convected wave equation the solver discretizes (second-order form):
 
 $$
-(\partial_t + v(x)\partial_x)^2\phi - c(x)^2\partial_x^2\phi = 0.
+(\partial_t + v(x)\partial_x)^2\phi - c(x)^2\partial_x^2\phi = 0
 $$
 
 We evolve the equivalent first-order-in-time system in the code.
@@ -92,6 +92,7 @@ $$
 $$
 
 In the code’s dimensionless units we compare observed $|\beta_\omega|^2$ to the dimensionless form $(e^{\omega/T_H^{(\mathrm{dimless})}}-1)^{-1}$
+
 
 
 
